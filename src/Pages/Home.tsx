@@ -2,10 +2,11 @@ import React from 'react'
 
 export const Home = () => {
   return(
-    <div>
-      <h1>Tons of fun. Lots of learning.</h1>
+    <div style={{height: '100vh'}}>
+      <h1>TIGERS!!</h1>
+      <h2>Tons of fun. Lots of learning.</h2>
       <br/>
-      <h1>All in one place.</h1>
+      <h2>All in one place.</h2>
       <p>
         <img src="/images/t1.jpeg" alt="tiger relaxing after dinner" />
         <div style={{paddingTop: '10px'}}>

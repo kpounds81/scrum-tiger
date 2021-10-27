@@ -8,6 +8,12 @@
   pointer-events: none;
 }
 
+.App .links {
+  padding: 20px;
+  background-color: #FFF;
+  border-bottom: 2px solid #000;
+}
+
 .App .links a {
   padding-right: 8px;
 }
