@@ -16,6 +16,12 @@ export const Images = () => {
       <p>
         <img src="/images/t4.jpeg" alt="tiger" />
       </p>
+      <p>
+        <img src="/images/t5.jpeg" alt="tiger" />
+      </p>
+      <p>
+        <img src="/images/t6.png" alt="tiger" />
+      </p>
     </div>
   )
 }

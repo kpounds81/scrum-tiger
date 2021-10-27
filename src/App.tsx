@@ -17,13 +17,13 @@ function App() {
       <Router history={history}>
         <div className="links">
           <Link to="/">Home</Link>
-          <Link to="/habitat">Habitats</Link>
-          <Link to="/classification">Classification</Link>
-          <Link to="/diet">Diet</Link>
+          {/* <Link to="/habitat">Habitats</Link> */}
+          {/* <Link to="/classification">Classification</Link> */}
+          {/* <Link to="/diet">Diet</Link> */}
           <Link to="/images">Images</Link>
-          <Link to="/anatomy">Anatomy</Link>
-          <Link to="/behavior">Behavior</Link>
-          <Link to="/mating">Mating</Link>
+          {/* <Link to="/anatomy">Anatomy</Link> */}
+          {/* <Link to="/behavior">Behavior</Link> */}
+          {/* <Link to="/mating">Mating</Link> */}
         </div>
         <Switch>
           <Route exact path="/" component={Home} />
