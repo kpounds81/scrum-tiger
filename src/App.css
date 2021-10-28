@@ -15,17 +15,44 @@ ul {
   background: linear-gradient(90deg, rgb(190, 190, 190) 0%, rgb(221, 221, 221) 50%, rgba(190, 190, 190) 100%);
 }
 
-.App .links {
-  padding: 20px 0;
+.App .nav {
   top: 0;
   position: fixed;
   width: 100%;
-  background-color: #FFF;
+  background: rgb(78,78,78);
+  background: linear-gradient(0deg, rgb(114, 114, 114, 1) 0%, rgb(190, 190, 190, 1) 100%);
   border-bottom: 2px solid #000;
 }
 
-.App .links a {
-  padding-right: 8px;
+.App .link {
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  min-width: 120px;
+  margin: auto;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.App .link:not(:last-child) {
+  border-right: 1px solid #000;
+}
+
+.App .link:hover, .App .link.active {
+  background: rgb(78,78,78);
+  background: linear-gradient(0deg, rgb(190, 190, 190, 1) 0%, rgba(114, 114, 114,1) 100%);
+}
+
+.App .nav a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  height: 60px;
+}
+
+.App .nav a:hover {
+  font-weight: bold;
+  color: rgb(168, 93, 7);
 }
 
 .App .content {
