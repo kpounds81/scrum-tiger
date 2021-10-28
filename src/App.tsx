@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, Route, Router, Switch } from 'react-router-dom'
+import { Route, Router, Switch } from 'react-router-dom'
 import './App.css';
 import history from './history'
 import { Anatomy } from './Pages/Anatomy'
@@ -10,22 +10,13 @@ import { Habitat } from './Pages/Habitat'
 import { Home } from './Pages/Home'
 import { Images } from './Pages/Images'
 import Mating from './Pages/Mating'
+import TopNav from './Components/TopNav'
 
 function App() {
   return (
     <div className="App">
       <Router history={history}>
-        <div className="links">
-          <Link to="/">Home</Link>
-          {/* <Link to="/habitat">Habitats</Link> */}
-          <Link to="/classification">Famous Tigers</Link>
-          <Link to="/diet">Diet</Link>
-          <Link to="/images">Images</Link>
-          <Link to="/habitat">Habitats</Link>
-          {/* <Link to="/anatomy">Anatomy</Link> */}
-          {/* <Link to="/behavior">Behavior</Link> */}
-          {/* <Link to="/mating">Mating</Link> */}
-        </div>
+      <TopNav />
         <div className="content">
           <Switch>
             <Route exact path="/" component={Home} />
