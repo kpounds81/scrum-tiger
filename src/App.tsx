@@ -25,16 +25,18 @@ function App() {
           {/* <Link to="/behavior">Behavior</Link> */}
           {/* <Link to="/mating">Mating</Link> */}
         </div>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/habitat" component={Habitat} />
-          <Route path="/classification" component={Classification} />
-          <Route path="/diet" component={Diet} />
-          <Route path="/images" component={Images} />
-          <Route path="/anatomy" component={Anatomy} />
-          <Route path="/behavior" component={Behavior} />
-          <Route path="/mating" component={Mating} />
-        </Switch>
+        <div className="content">
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/habitat" component={Habitat} />
+            <Route path="/classification" component={Classification} />
+            <Route path="/diet" component={Diet} />
+            <Route path="/images" component={Images} />
+            <Route path="/anatomy" component={Anatomy} />
+            <Route path="/behavior" component={Behavior} />
+            <Route path="/mating" component={Mating} />
+          </Switch>
+        </div>
       </Router>
     </div>
   );
