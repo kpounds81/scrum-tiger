@@ -9,6 +9,11 @@ ul {
   padding: 0;
 }
 
+.habitat-list {
+  background: rgb(161, 161, 161);
+  background: linear-gradient(90deg, rgb(190, 190, 190) 0%, rgb(221, 221, 221) 50%, rgba(190, 190, 190) 100%);
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
