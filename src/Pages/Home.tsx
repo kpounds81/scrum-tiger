@@ -23,6 +23,9 @@ export const Home = () => {
             <li>Panthera tigris</li>
           </ul>
         </div>
+        <p>
+          Use the navigation above to learn more about tigers! 
+        </p>
       </p>
     </div>
   )
