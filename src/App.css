@@ -3,6 +3,7 @@
   margin-top: 60px;
   background: rgb(180,102,13);
   background: linear-gradient(90deg, rgba(180,102,13,1) 0%, rgba(255,150,30,1) 50%, rgba(180,102,13,1) 100%);
+  min-height: 100vh;
 }
 
 ul {
@@ -12,11 +13,6 @@ ul {
 .habitat-list {
   background: rgb(161, 161, 161);
   background: linear-gradient(90deg, rgb(190, 190, 190) 0%, rgb(221, 221, 221) 50%, rgba(190, 190, 190) 100%);
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
 
 .App .links {
@@ -34,10 +30,6 @@ ul {
 
 .App .content {
   padding: 20px;
-}
-
-.habitats {
-  height: 100vh;
 }
 
 @media (prefers-reduced-motion: no-preference) {

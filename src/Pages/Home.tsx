@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Home = () => {
   return(
-    <div style={{height: '100vh'}}>
+    <div>
       <h1>TIGERS!!</h1>
       <h2>Tons of fun. Lots of learning.</h2>
       <br/>
